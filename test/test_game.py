@@ -9,7 +9,7 @@ def test_match():
 
     expected = [Match(Match.Type.Pair, cards)]
 
-    assert game.moves() == expected
+    assert set(game.moves()) == set(expected)
 
 
 def test_run():
@@ -19,4 +19,4 @@ def test_run():
 
     expected = [Match(Match.Type.Run, cards)]
 
-    assert game.moves() == expected
+    assert set(game.moves()) == set(expected)
