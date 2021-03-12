@@ -1,3 +1,6 @@
 # Python Stuff
 venv
 .pytest_cache
+
+# User Stuff
+out
